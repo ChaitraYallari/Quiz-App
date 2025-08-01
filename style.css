@@ -1,0 +1,102 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #3b82f6, #9333ea);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-container {
+  background: #fff;
+  width: 550px;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+/* Quiz Section */
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#timer {
+  font-weight: bold;
+  color: #9333ea;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.options button {
+  background: #f1f1f1;
+  color: #333;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.options button.correct {
+  background: #16a34a; /* green */
+  color: white;
+}
+
+.options button.wrong {
+  background: #dc2626; /* red */
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+/* Result */
+.quiz-result h2 {
+  color: #2563eb;
+}
+
+#answersReview {
+  margin-top: 15px;
+  text-align: left;
+}
+#answersReview p {
+  margin: 5px 0;
+}

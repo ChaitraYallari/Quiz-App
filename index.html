@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container" id="quizApp">
+    
+    <!-- Quiz Intro -->
+    <div class="quiz-intro" id="quizIntro">
+      <h1>📝 Quiz App</h1>
+      <p>Test your knowledge with this short quiz. Each correct answer adds 1 point, and skipping deducts 1 point.</p>
+      <button id="startBtn">Start Quiz</button>
+    </div>
+    
+    <!-- Quiz Section -->
+    <div class="quiz-content hide" id="quizContent">
+      <div class="quiz-header">
+        <h2 id="questionText">Question text</h2>
+        <div id="timer">⏱️ 60s</div>
+      </div>
+      <div class="options" id="optionsContainer"></div>
+      <button id="nextBtn" class="hide">Next Question</button>
+    </div>
+    
+    <!-- Quiz Result -->
+    <div class="quiz-result hide" id="quizResult">
+      <h2>Quiz Finished 🎉</h2>
+      <p id="finalScore">Your Score: 0</p>
+      <div id="answersReview"></div>
+      <button id="restartBtn">Restart Quiz</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
