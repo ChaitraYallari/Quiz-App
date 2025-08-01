@@ -72,7 +72,7 @@ Correct: Mars ✅
 ---
 
 ## 🚀 Project URL
-🔗 [Temperature Converter Project on roadmap.sh](https://roadmap.sh/projects/temperature-converter)
+🔗 [Quiz App Project on roadmap.sh](https://roadmap.sh/projects/quiz-app)
 
 ---
 
